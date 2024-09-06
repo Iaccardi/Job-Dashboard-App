@@ -1,0 +1,263 @@
+
+.app {
+    display:flex;
+    flex-direction: column;
+    height:100vh;
+    width:100vw !important;
+}
+
+.signup-form {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:100px;
+}
+
+.reviews-container {
+    display:flex;
+    height:100vh;
+    margin-top:50px;
+}
+
+.homepage {
+    display:flex;
+    height:100vh;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+    text-align:center;
+    flex-direction:column;
+}
+
+.hero-container{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    margin-top:50px;
+    text-align:center;
+}
+
+.hero-paper {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-img {
+    width:100%;
+}
+
+.profile-form {
+    display:flex;
+    height:100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:5px;
+    margin-top:80px;
+}
+
+.profile-form h1 {
+    margin-bottom:15px;
+}
+
+.account-container {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:14px;
+    margin-top:100px;
+}
+
+.account-heading {
+    padding-top:20px;
+}
+
+.welcome-card {
+    display:flex;
+    height:10vh;
+    align-items: center;
+    width:100%;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) !important;
+   }
+
+
+.dashboard-container {
+    display:flex;
+    height:100%;
+    gap:60px;
+    width:90% !important;
+    align-items: flex-start !important;
+    justify-content: space-between !important;
+    margin-top:100px;
+    margin-left:30px;
+}
+
+.left-dashboard {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    gap:20px;
+    width: 60%;
+    
+}
+
+.job-container {
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding: 10px;
+    height:100% !important;
+    overflow-y: auto !important;
+    flex:1 ;
+    gap:20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) !important; 
+    padding:35px;
+
+  }
+
+
+.jobCard-container {
+    display:flex;
+    align-items: start;
+    justify-content: center;
+    gap:10px;
+}
+
+.job-card {
+    width:90%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    margin:10px;
+    
+}
+
+.job-heading {
+    font-size:40px !important;
+    font-weight:600 !important;
+}
+
+.job-button {
+    margin-top:20px !important;
+    margin-bottom:10px !important;
+}
+
+.job-form {
+    width: 100%;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination-button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .pagination-button.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+
+ 
+
+  .contact-form {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    gap:2px !important;
+  }
+
+  .contactList-container {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5) !important;
+    padding-top:20px;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: white !important;
+   
+
+  }
+
+  .about-page {
+    display:flex;
+    flex-direction: column;
+    height:90vh;
+    align-items: center;
+    margin-top:120px;
+  }
+
+  .about-container {
+    width:75%;
+    font-size: 30px;
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+    padding-bottom:40px;
+  }
+
+  
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+
+    .app {
+        width:100vw !important;
+    }
+    .dashboard-container {
+        flex-direction: column;
+        gap: 30px;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+      }
+    .left-dashboard {
+        display:flex;
+        flex-direction: column;
+        width:100%;
+    }
+
+    .contactList-container {
+        width:100%  ;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .contact-cards {
+        width:100%;
+        align-self: center;
+    }
+    
+    .hero-img {
+        display: none;
+    }
+
+
+    .welcome-card {
+        height: auto; /* Change to 'auto' for responsive height */
+    }
+
+    
+
+ 
+
+   
+}
+.light-grey-background {
+    background-color: #F0F0F0 !important;
+  }
